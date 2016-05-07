@@ -1,0 +1,1052 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013A7C39AC26FD72CBBC5316E3F7A226 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 935254F760096E2E15DFC748F338CD34 /* houdini_html_e.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		061D8B4B6E00BCCA3917082CC7BBE409 /* cmark-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 673C1A30CE9CEE6C785F91DDF0FBECF1 /* cmark-iOS-dummy.m */; };
+		06D2DE7B321D3E496511A3DDBA4932DF /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 7E43C629114760697B1D55E365DF13AA /* html.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		08D7BAB344AD9CC1C2A4BE725F996EC5 /* inlines.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D03E73361F4536F1C4B26B7640CE1F5 /* inlines.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0901101B9DB5FEA8AB1C9B510582588D /* scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = DD0EECA69920C5D8636F4B0C87A1D157 /* scanners.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0A1F78CC02EF8AADCF95F98AC48EDD9F /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = AE389B9DBB40E3A30988FD7B3D71EB6C /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CCE6417D1BA4A7665322E82990630D2 /* houdini_html_u.c in Sources */ = {isa = PBXBuildFile; fileRef = 724B4344D6A22636B6F21B1A3B7BF5F4 /* houdini_html_u.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0E468A792E256E5686308F363345EDB6 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = AE389B9DBB40E3A30988FD7B3D71EB6C /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		116586B5204474E47EE82FF27BAECD7D /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = E7C0961C44DBDF1FA10EDDB7FF0EF1F1 /* node.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		138914D636AF698AE03CB4DBB879EFA3 /* entities.inc in Sources */ = {isa = PBXBuildFile; fileRef = 2791825E93C357A00FD4AEC3C9D3A072 /* entities.inc */; };
+		1435B568918F875BDE53018AC81EFB53 /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 89F611A86168A1D71BD3FA7F0621474D /* utf8.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		16247A005B9B14F05B6C0509E0698914 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1EC02C0EB6DA87BE21A6A5E182FB129C /* main.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		162B9F9FB410E4C6A16BE03E2BC9090C /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = 33ECECB35F737DF5D5DF25868F07A510 /* xml.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1ACAE5164487E5DE738B05CCD7AF71A8 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 7E43C629114760697B1D55E365DF13AA /* html.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1BDCD53102DCAE3B8FC568196BB3F8C1 /* cmark.c in Sources */ = {isa = PBXBuildFile; fileRef = 96B358B1912A4D30C97688C4508F339A /* cmark.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1D438F31F86454DD8053D82295D47A1F /* houdini_html_u.c in Sources */ = {isa = PBXBuildFile; fileRef = 724B4344D6A22636B6F21B1A3B7BF5F4 /* houdini_html_u.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		242E30E60CC5ECD10C3839320C038774 /* cmark-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43EC829E72C0CBE470242E735538E320 /* cmark-OSX-dummy.m */; };
+		27754BEE11F8C10BCA8F266964624373 /* Pods-CommonMark OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92F969AF64F37D130AD53F6CF08755D3 /* Pods-CommonMark OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		291C05D0A29C53463522315F7ECC46D1 /* inlines.h in Headers */ = {isa = PBXBuildFile; fileRef = 99E6AC65BB671880F1E3EBA427CB8400 /* inlines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2E161559461A75757EBCD14C5D691FF9 /* render.c in Sources */ = {isa = PBXBuildFile; fileRef = A77F05A9AED4EB726FC5D7629A356FC0 /* render.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2F08BB67FD49FF9D19812A47031D7844 /* man.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A29D28BBFFD96195ABEBD654F061B61 /* man.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2F1FDA65BF031882CCE3CD9121F9A8B4 /* iterator.c in Sources */ = {isa = PBXBuildFile; fileRef = 497356A65FF7515C099025A26E2799C3 /* iterator.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		33D92A1198B283DC66B49EE0163730FF /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = B44AF6FB55A50BF1B6B496C9C439C7EA /* node.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3647BFECC3ACAFF2E02F62C881BE57B6 /* commonmark.c in Sources */ = {isa = PBXBuildFile; fileRef = FABCD1DC9049D9602D7215293AE35AC4 /* commonmark.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		36DA98195A8C44FD13C9104BFA1A43F1 /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = E7C0961C44DBDF1FA10EDDB7FF0EF1F1 /* node.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38EADC7A8C482E738B37FA1AE2164230 /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 36213039B393D14AFB3FC03F0601DE6E /* parser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3BB1A4D8156EAECB7064BBB364F8C641 /* cmark.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7DBB9BB1627C568CE1B11F3459563A /* cmark.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C403E93ACEC7EEAB3B8E2491C55CC41 /* latex.c in Sources */ = {isa = PBXBuildFile; fileRef = 68DF44DE89A213590C5D613B17D38579 /* latex.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		44837891AFD2DF8D3555A3AA1E4C760A /* references.c in Sources */ = {isa = PBXBuildFile; fileRef = CB92F4B315F9EB6AA1CBF81E6AF3C957 /* references.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		46BDA27A1E6F83EE9334FDC0EC9CFE5C /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = 4856C2155C2A0B91A900FA44B48F4F7D /* utf8.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D6847E14F3384E68394DA40F0F2A24F /* cmark_ctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F69B61CB151F868CFEE6E93DA23E173 /* cmark_ctype.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4E469EA13D733C8BCA01DA121E48DA74 /* cmark_ctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F69B61CB151F868CFEE6E93DA23E173 /* cmark_ctype.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		50A893DFA5A6857A489F8C0BBD0F4770 /* iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 73622814EBEE8E5B2101C5B732919D29 /* iterator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		52518ED0BC5082E0B8131D7EBC0FF093 /* Pods-CommonMark iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5176044795C33BBF337FD2B79AFD3D73 /* Pods-CommonMark iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58B883D08C852E0BA86EA2EFFB796E75 /* cmark.c in Sources */ = {isa = PBXBuildFile; fileRef = 96B358B1912A4D30C97688C4508F339A /* cmark.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5B102DB97AC664895B8A6DA7EC0F6967 /* references.h in Headers */ = {isa = PBXBuildFile; fileRef = 8369B5F798C94C2377A242580B17970C /* references.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C79CDEE06124FC491A994B985776A25 /* cmark-OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE2CFF1060342A77016AF22595D77BE /* cmark-OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FBC9E7960CF4303BA836E729CBDBFAC /* references.h in Headers */ = {isa = PBXBuildFile; fileRef = 8369B5F798C94C2377A242580B17970C /* references.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		60C6B75B1494853D1C3CDA044C3E25FA /* houdini.h in Headers */ = {isa = PBXBuildFile; fileRef = 14FEACF0AAA6F370257A98F999651258 /* houdini.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		618D6EE594B877FACC1E9C86808940E9 /* cmark.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7DBB9BB1627C568CE1B11F3459563A /* cmark.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636F229ADAE20F059AC538749F4EBB90 /* scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = DD0EECA69920C5D8636F4B0C87A1D157 /* scanners.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		654E25DA1AF870A8F6B775D84826A859 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE25DD04263CA735DBC0065D686C708D /* Cocoa.framework */; };
+		66D138730EF76DD04C35E0CF56718BB7 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = B79ED19BDC6771E38B7696D50D97A28E /* houdini_href_e.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		697DADD1C7B9E466DE1E1B2C5351A1FF /* render.c in Sources */ = {isa = PBXBuildFile; fileRef = A77F05A9AED4EB726FC5D7629A356FC0 /* render.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6DD305BECAB1DD9715D70644B3C2790A /* iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 73622814EBEE8E5B2101C5B732919D29 /* iterator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		74B16AB443EBFB9CD2E5B9EF22774CAD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1EC02C0EB6DA87BE21A6A5E182FB129C /* main.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		75AB76FA1A385D49A36ABB56A53663E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C89EDC2EC27D60F4934F3C043A7D91 /* Foundation.framework */; };
+		7F91CB1599D83A6D75DAE7904009BCB5 /* chunk.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB63FED8773C87064EB27D1FF4217E5 /* chunk.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81977E3AD744DF3EDE7463BCB705005E /* commonmark.c in Sources */ = {isa = PBXBuildFile; fileRef = FABCD1DC9049D9602D7215293AE35AC4 /* commonmark.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8633CB9BD7A0D9413B95050A3CE95D69 /* houdini.h in Headers */ = {isa = PBXBuildFile; fileRef = 14FEACF0AAA6F370257A98F999651258 /* houdini.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88A8D47291ACE4FB90EE04D26D5936BE /* man.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A29D28BBFFD96195ABEBD654F061B61 /* man.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8AF4753D7340EF3A62DB8FDF01B774C5 /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = F458C9B1DDD86695A2EBB2076F87374F /* blocks.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8C6A31563B1F2A4874CFE7703DEAFC9D /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 36213039B393D14AFB3FC03F0601DE6E /* parser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8D58A597251039E6266CE8B4038C9A01 /* chunk.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB63FED8773C87064EB27D1FF4217E5 /* chunk.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9230810B3698988675341261684C0F66 /* cmark_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 6849A4E80E5574644EF3214E3C0E5688 /* cmark_version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92500494694238A015091FC2D39087C9 /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = B44AF6FB55A50BF1B6B496C9C439C7EA /* node.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		93826F5A0E34AA50BA95D4A661DD64AB /* render.h in Headers */ = {isa = PBXBuildFile; fileRef = D6AA15005F0098E1819C710C21E66672 /* render.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		93B8603AEFE8FAD02BD78389AB2BA746 /* latex.c in Sources */ = {isa = PBXBuildFile; fileRef = 68DF44DE89A213590C5D613B17D38579 /* latex.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9DAA79ED7D57DA158505BF6061D87E8A /* cmark-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2E7165741357B2E020C871F1EAA24B2 /* cmark-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E22E97FA129C85935172A891DC015B5 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = B79ED19BDC6771E38B7696D50D97A28E /* houdini_href_e.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9EC182F77A66C8C6F8FCFC9C408A09CC /* inlines.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D03E73361F4536F1C4B26B7640CE1F5 /* inlines.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A23DB93D282DF926D481514F0D1A3143 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE25DD04263CA735DBC0065D686C708D /* Cocoa.framework */; };
+		A53C7CEB61C8C3EC3B40F7EF34178E62 /* cmark_ctype.h in Headers */ = {isa = PBXBuildFile; fileRef = 91D511C3BFC479848B08B9C77AF5CF9B /* cmark_ctype.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB41CF6903A68CF0B2DFEF85A8007DE9 /* case_fold_switch.inc in Sources */ = {isa = PBXBuildFile; fileRef = 8F77F2765F35FBD3FF5FCA493E6410A1 /* case_fold_switch.inc */; };
+		AFFF252F85EA9E3FAAAE827F5AF7F11E /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = 33ECECB35F737DF5D5DF25868F07A510 /* xml.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B09842682F41E83772F3B419B23E1445 /* cmark_export.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A0E2F0E8D1695FD6703C83F299D8F9A /* cmark_export.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B75CF99F13D8F2236EE03483970A9A07 /* cmark_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 6849A4E80E5574644EF3214E3C0E5688 /* cmark_version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B790BAC1F7B91F4AFEADFD6847082EA8 /* Pods-CommonMark iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA8B47764241E7D1AE84AC37D7F0BD /* Pods-CommonMark iOS-dummy.m */; };
+		B96F4FA0EB4B7E1F3B7ABC482568FE12 /* render.h in Headers */ = {isa = PBXBuildFile; fileRef = D6AA15005F0098E1819C710C21E66672 /* render.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B9BC413E2277E4464CF1097BCD7AD030 /* entities.inc in Sources */ = {isa = PBXBuildFile; fileRef = 2791825E93C357A00FD4AEC3C9D3A072 /* entities.inc */; };
+		BB6B5263E72C8E67494BC7940BE9CDE0 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 6E2D0EAE33C1797E5E5CE6668789AADD /* buffer.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C28EB50ED9CE0265688EE306BADF46BD /* scanners.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E02D0A8995B817C7676C0B4EFA6896 /* scanners.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C65B36615628CD569096FF4366BA4E8F /* inlines.h in Headers */ = {isa = PBXBuildFile; fileRef = 99E6AC65BB671880F1E3EBA427CB8400 /* inlines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA1ADC990F5863452D3222E588756372 /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 89F611A86168A1D71BD3FA7F0621474D /* utf8.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CB4499057BAF536AA14B6926BBBEFFE6 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 935254F760096E2E15DFC748F338CD34 /* houdini_html_e.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CFE9D3B57591F6E0DB967FDFF4C44D10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C89EDC2EC27D60F4934F3C043A7D91 /* Foundation.framework */; };
+		D607DF9CBDC1E71E904CE8A3EF6678A2 /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = F458C9B1DDD86695A2EBB2076F87374F /* blocks.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D844D93BFB2CFD1F239C26C6A723C755 /* cmark_export.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A0E2F0E8D1695FD6703C83F299D8F9A /* cmark_export.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9991D320F6954C98FD5CC7044DF7C8F /* scanners.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E02D0A8995B817C7676C0B4EFA6896 /* scanners.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DB04ED77D938932685512104002B4CC1 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0120F34DD2B36F5A6D19DF45BEACD246 /* buffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DC38D9EDF456863833ECFF89127F7366 /* references.c in Sources */ = {isa = PBXBuildFile; fileRef = CB92F4B315F9EB6AA1CBF81E6AF3C957 /* references.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EE11E6E5CB52249AFE996AC42672DF4C /* iterator.c in Sources */ = {isa = PBXBuildFile; fileRef = 497356A65FF7515C099025A26E2799C3 /* iterator.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EFBB1EC09BA1DF12940E464231172967 /* Pods-CommonMark OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F569BC537CA6D3E00E98F06498CAB24 /* Pods-CommonMark OSX-dummy.m */; };
+		F4A7CCDB5950D61F4CD26E8B1EBA194B /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = 4856C2155C2A0B91A900FA44B48F4F7D /* utf8.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F91F56013A22561F5A559B9991CAA064 /* case_fold_switch.inc in Sources */ = {isa = PBXBuildFile; fileRef = 8F77F2765F35FBD3FF5FCA493E6410A1 /* case_fold_switch.inc */; };
+		F94F2E0D32729A56E742C60BB4F93863 /* cmark_ctype.h in Headers */ = {isa = PBXBuildFile; fileRef = 91D511C3BFC479848B08B9C77AF5CF9B /* cmark_ctype.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F9CBEDCF73280B1FA7A794A0ACDF45EE /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0120F34DD2B36F5A6D19DF45BEACD246 /* buffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FFB142AA69619930274CD8F1EAF9D783 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 6E2D0EAE33C1797E5E5CE6668789AADD /* buffer.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23F8430EE35A7B3779EA9BCC8648CBF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AFAEE396F6DF8A99185FEC60F3991D4;
+			remoteInfo = "cmark-iOS";
+		};
+		9EA039B2A6DB79EE4873616355C08097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C31112C8BEEF55ABEFAB008CD07DBA4;
+			remoteInfo = "cmark-OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0120F34DD2B36F5A6D19DF45BEACD246 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = src/buffer.h; sourceTree = "<group>"; };
+		07164092ECF6A2908608FD02AD4B38A5 /* Pods-CommonMark iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonMark iOS-frameworks.sh"; sourceTree = "<group>"; };
+		0AC90E0E35B88BBBFF4160F3DF8A030F /* cmark-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "cmark-iOS.xcconfig"; path = "../cmark-iOS/cmark-iOS.xcconfig"; sourceTree = "<group>"; };
+		0B95C2ABB49532E1B492D72670828688 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../cmark-iOS/Info.plist"; sourceTree = "<group>"; };
+		0F569BC537CA6D3E00E98F06498CAB24 /* Pods-CommonMark OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CommonMark OSX-dummy.m"; sourceTree = "<group>"; };
+		13E02D0A8995B817C7676C0B4EFA6896 /* scanners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scanners.h; path = src/scanners.h; sourceTree = "<group>"; };
+		14FEACF0AAA6F370257A98F999651258 /* houdini.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = houdini.h; path = src/houdini.h; sourceTree = "<group>"; };
+		1A0E2F0E8D1695FD6703C83F299D8F9A /* cmark_export.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_export.h; path = build/src/cmark_export.h; sourceTree = "<group>"; };
+		1EC02C0EB6DA87BE21A6A5E182FB129C /* main.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = main.c; path = src/main.c; sourceTree = "<group>"; };
+		24198A4CBAB56579EFF78494B5D94A02 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2791825E93C357A00FD4AEC3C9D3A072 /* entities.inc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.pascal; name = entities.inc; path = src/entities.inc; sourceTree = "<group>"; };
+		2A9F69E334F2D38A0E64CCB34F21EAFA /* Pods-CommonMark OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonMark OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		2AE2CFF1060342A77016AF22595D77BE /* cmark-OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cmark-OSX-umbrella.h"; sourceTree = "<group>"; };
+		2DC883DE8F99A1710AE4F2B5DB0DE30C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E47418D42D028FECAD7EE95C74647A7 /* Pods_CommonMark_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonMark_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EEA8B47764241E7D1AE84AC37D7F0BD /* Pods-CommonMark iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CommonMark iOS-dummy.m"; sourceTree = "<group>"; };
+		2F69B61CB151F868CFEE6E93DA23E173 /* cmark_ctype.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = cmark_ctype.c; path = src/cmark_ctype.c; sourceTree = "<group>"; };
+		31CE5BCD88C848348AD04EEF996D4172 /* Pods-CommonMark iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonMark iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		33ECECB35F737DF5D5DF25868F07A510 /* xml.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = xml.c; path = src/xml.c; sourceTree = "<group>"; };
+		36213039B393D14AFB3FC03F0601DE6E /* parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parser.h; path = src/parser.h; sourceTree = "<group>"; };
+		43EC829E72C0CBE470242E735538E320 /* cmark-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "cmark-OSX-dummy.m"; sourceTree = "<group>"; };
+		46666C4CC4A1E2BFC9BAB3A412FA8B1D /* cmark-OSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "cmark-OSX.xcconfig"; sourceTree = "<group>"; };
+		48483B8B605D8666986444F74A36D6C4 /* Pods-CommonMark OSX-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CommonMark OSX-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4856C2155C2A0B91A900FA44B48F4F7D /* utf8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utf8.h; path = src/utf8.h; sourceTree = "<group>"; };
+		497356A65FF7515C099025A26E2799C3 /* iterator.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iterator.c; path = src/iterator.c; sourceTree = "<group>"; };
+		4AC54A29DA862D048F732FBA1DFA654D /* cmark-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "cmark-iOS.modulemap"; path = "../cmark-iOS/cmark-iOS.modulemap"; sourceTree = "<group>"; };
+		5176044795C33BBF337FD2B79AFD3D73 /* Pods-CommonMark iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CommonMark iOS-umbrella.h"; sourceTree = "<group>"; };
+		5871D8BE8BCCA659715DD10E71BF25D1 /* Pods-CommonMark OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonMark OSX.release.xcconfig"; sourceTree = "<group>"; };
+		5A29D28BBFFD96195ABEBD654F061B61 /* man.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = man.c; path = src/man.c; sourceTree = "<group>"; };
+		5F6E7A4E156332ADFA5C3002EFDF083C /* Pods-CommonMark OSX-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonMark OSX-resources.sh"; sourceTree = "<group>"; };
+		673C1A30CE9CEE6C785F91DDF0FBECF1 /* cmark-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "cmark-iOS-dummy.m"; path = "../cmark-iOS/cmark-iOS-dummy.m"; sourceTree = "<group>"; };
+		6849A4E80E5574644EF3214E3C0E5688 /* cmark_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_version.h; path = build/src/cmark_version.h; sourceTree = "<group>"; };
+		68DF44DE89A213590C5D613B17D38579 /* latex.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = latex.c; path = src/latex.c; sourceTree = "<group>"; };
+		6E2D0EAE33C1797E5E5CE6668789AADD /* buffer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = buffer.c; path = src/buffer.c; sourceTree = "<group>"; };
+		6F2803E05057D3A69D4D3ADEA4E45AA6 /* Pods_CommonMark_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonMark_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		724B4344D6A22636B6F21B1A3B7BF5F4 /* houdini_html_u.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = houdini_html_u.c; path = src/houdini_html_u.c; sourceTree = "<group>"; };
+		72A9857D544DAE61E5705896D5432329 /* cmark-OSX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cmark-OSX-prefix.pch"; sourceTree = "<group>"; };
+		73622814EBEE8E5B2101C5B732919D29 /* iterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iterator.h; path = src/iterator.h; sourceTree = "<group>"; };
+		75ACF707DCA13110B8BEB9CC758DF8FE /* Pods-CommonMark iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonMark iOS-resources.sh"; sourceTree = "<group>"; };
+		7E43C629114760697B1D55E365DF13AA /* html.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = html.c; path = src/html.c; sourceTree = "<group>"; };
+		7F7DBB9BB1627C568CE1B11F3459563A /* cmark.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark.h; path = src/cmark.h; sourceTree = "<group>"; };
+		8369B5F798C94C2377A242580B17970C /* references.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = references.h; path = src/references.h; sourceTree = "<group>"; };
+		87F90BA6CFF3FE41638CC56ABC378DCA /* Pods-CommonMark OSX-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonMark OSX-frameworks.sh"; sourceTree = "<group>"; };
+		89F611A86168A1D71BD3FA7F0621474D /* utf8.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = utf8.c; path = src/utf8.c; sourceTree = "<group>"; };
+		8B824CDD7DC37AB77007CBB13BFF6F69 /* Pods-CommonMark OSX-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonMark OSX-acknowledgements.plist"; sourceTree = "<group>"; };
+		8CDF9506B13FEFCA5BF08A09F3CAB916 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D03E73361F4536F1C4B26B7640CE1F5 /* inlines.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = inlines.c; path = src/inlines.c; sourceTree = "<group>"; };
+		8F77F2765F35FBD3FF5FCA493E6410A1 /* case_fold_switch.inc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.pascal; name = case_fold_switch.inc; path = src/case_fold_switch.inc; sourceTree = "<group>"; };
+		91D511C3BFC479848B08B9C77AF5CF9B /* cmark_ctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_ctype.h; path = src/cmark_ctype.h; sourceTree = "<group>"; };
+		92F969AF64F37D130AD53F6CF08755D3 /* Pods-CommonMark OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CommonMark OSX-umbrella.h"; sourceTree = "<group>"; };
+		935254F760096E2E15DFC748F338CD34 /* houdini_html_e.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = houdini_html_e.c; path = src/houdini_html_e.c; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96B358B1912A4D30C97688C4508F339A /* cmark.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = cmark.c; path = src/cmark.c; sourceTree = "<group>"; };
+		99E6AC65BB671880F1E3EBA427CB8400 /* inlines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = inlines.h; path = src/inlines.h; sourceTree = "<group>"; };
+		A77F05A9AED4EB726FC5D7629A356FC0 /* render.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = render.c; path = src/render.c; sourceTree = "<group>"; };
+		AE389B9DBB40E3A30988FD7B3D71EB6C /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = build/src/config.h; sourceTree = "<group>"; };
+		B0C89EDC2EC27D60F4934F3C043A7D91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B44AF6FB55A50BF1B6B496C9C439C7EA /* node.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = node.c; path = src/node.c; sourceTree = "<group>"; };
+		B79ED19BDC6771E38B7696D50D97A28E /* houdini_href_e.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = houdini_href_e.c; path = src/houdini_href_e.c; sourceTree = "<group>"; };
+		B84030AF11EB93B667BE68A9E4B1B013 /* Pods-CommonMark iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonMark iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		C2E7165741357B2E020C871F1EAA24B2 /* cmark-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "cmark-iOS-umbrella.h"; path = "../cmark-iOS/cmark-iOS-umbrella.h"; sourceTree = "<group>"; };
+		C7025029B954465634D2CFB3AE964D4D /* Pods-CommonMark OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CommonMark OSX.modulemap"; sourceTree = "<group>"; };
+		CB92F4B315F9EB6AA1CBF81E6AF3C957 /* references.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = references.c; path = src/references.c; sourceTree = "<group>"; };
+		D527138357597F25BF82B3C5A165D315 /* cmark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cmark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6AA15005F0098E1819C710C21E66672 /* render.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = render.h; path = src/render.h; sourceTree = "<group>"; };
+		DAB63FED8773C87064EB27D1FF4217E5 /* chunk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = chunk.h; path = src/chunk.h; sourceTree = "<group>"; };
+		DD0EECA69920C5D8636F4B0C87A1D157 /* scanners.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = scanners.c; path = src/scanners.c; sourceTree = "<group>"; };
+		DE25DD04263CA735DBC0065D686C708D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		E7C0961C44DBDF1FA10EDDB7FF0EF1F1 /* node.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = node.h; path = src/node.h; sourceTree = "<group>"; };
+		E8B207E95994870E53359893D90D130E /* cmark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cmark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB004F1D30560C8FE9C3486DA7204BAC /* Pods-CommonMark iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CommonMark iOS.modulemap"; sourceTree = "<group>"; };
+		ED52A094A9D77A13D3ED1EF74FAE29D0 /* cmark-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "cmark-iOS-prefix.pch"; path = "../cmark-iOS/cmark-iOS-prefix.pch"; sourceTree = "<group>"; };
+		F000504EBA14A7BB7CA741161D5EB578 /* cmark-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "cmark-OSX.modulemap"; sourceTree = "<group>"; };
+		F3D8B9DF33BDAF0CDC3B1933956201F7 /* Pods-CommonMark iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonMark iOS.release.xcconfig"; sourceTree = "<group>"; };
+		F458C9B1DDD86695A2EBB2076F87374F /* blocks.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = blocks.c; path = src/blocks.c; sourceTree = "<group>"; };
+		FABCD1DC9049D9602D7215293AE35AC4 /* commonmark.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = commonmark.c; path = src/commonmark.c; sourceTree = "<group>"; };
+		FD40AF9FF3F6570AEB5D296B6207D27B /* Pods-CommonMark iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CommonMark iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11AC452FF6DAD38578E0A104875BEC5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE9D3B57591F6E0DB967FDFF4C44D10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD275BD2F28E0D6E3B409649210FBE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AB76FA1A385D49A36ABB56A53663E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C1BB8384B4B590D65FD01022448BE1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23DB93D282DF926D481514F0D1A3143 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6A6CA07B167B151D7A2AF0BC872D90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654E25DA1AF870A8F6B775D84826A859 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		200DAEDCB81166AFE45624BCA41B0B3E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F5C0072B2372965A0861629CD8F08E6 /* Pods-CommonMark iOS */,
+				C21F52B0117BC9832C12DDDD9C5B3E92 /* Pods-CommonMark OSX */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3AEF7D761E8EA8419BB4A7000AB770CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEA55AE7EB4A1B09C009B82BA492BD02 /* iOS */,
+				9304B30CB87FDB77B6CEE9FB6B800855 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B002DE10CD939251D8BB9EE9A6525A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D527138357597F25BF82B3C5A165D315 /* cmark.framework */,
+				E8B207E95994870E53359893D90D130E /* cmark.framework */,
+				6F2803E05057D3A69D4D3ADEA4E45AA6 /* Pods_CommonMark_iOS.framework */,
+				2E47418D42D028FECAD7EE95C74647A7 /* Pods_CommonMark_OSX.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67CA2C1C670AECF74A8B9AF167CB7691 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68B47F0EE3EADC0C29DE64C81DAF6781 /* cmark */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		68B47F0EE3EADC0C29DE64C81DAF6781 /* cmark */ = {
+			isa = PBXGroup;
+			children = (
+				F458C9B1DDD86695A2EBB2076F87374F /* blocks.c */,
+				6E2D0EAE33C1797E5E5CE6668789AADD /* buffer.c */,
+				0120F34DD2B36F5A6D19DF45BEACD246 /* buffer.h */,
+				8F77F2765F35FBD3FF5FCA493E6410A1 /* case_fold_switch.inc */,
+				DAB63FED8773C87064EB27D1FF4217E5 /* chunk.h */,
+				96B358B1912A4D30C97688C4508F339A /* cmark.c */,
+				7F7DBB9BB1627C568CE1B11F3459563A /* cmark.h */,
+				2F69B61CB151F868CFEE6E93DA23E173 /* cmark_ctype.c */,
+				91D511C3BFC479848B08B9C77AF5CF9B /* cmark_ctype.h */,
+				1A0E2F0E8D1695FD6703C83F299D8F9A /* cmark_export.h */,
+				6849A4E80E5574644EF3214E3C0E5688 /* cmark_version.h */,
+				FABCD1DC9049D9602D7215293AE35AC4 /* commonmark.c */,
+				AE389B9DBB40E3A30988FD7B3D71EB6C /* config.h */,
+				2791825E93C357A00FD4AEC3C9D3A072 /* entities.inc */,
+				14FEACF0AAA6F370257A98F999651258 /* houdini.h */,
+				B79ED19BDC6771E38B7696D50D97A28E /* houdini_href_e.c */,
+				935254F760096E2E15DFC748F338CD34 /* houdini_html_e.c */,
+				724B4344D6A22636B6F21B1A3B7BF5F4 /* houdini_html_u.c */,
+				7E43C629114760697B1D55E365DF13AA /* html.c */,
+				8D03E73361F4536F1C4B26B7640CE1F5 /* inlines.c */,
+				99E6AC65BB671880F1E3EBA427CB8400 /* inlines.h */,
+				497356A65FF7515C099025A26E2799C3 /* iterator.c */,
+				73622814EBEE8E5B2101C5B732919D29 /* iterator.h */,
+				68DF44DE89A213590C5D613B17D38579 /* latex.c */,
+				1EC02C0EB6DA87BE21A6A5E182FB129C /* main.c */,
+				5A29D28BBFFD96195ABEBD654F061B61 /* man.c */,
+				B44AF6FB55A50BF1B6B496C9C439C7EA /* node.c */,
+				E7C0961C44DBDF1FA10EDDB7FF0EF1F1 /* node.h */,
+				36213039B393D14AFB3FC03F0601DE6E /* parser.h */,
+				CB92F4B315F9EB6AA1CBF81E6AF3C957 /* references.c */,
+				8369B5F798C94C2377A242580B17970C /* references.h */,
+				A77F05A9AED4EB726FC5D7629A356FC0 /* render.c */,
+				D6AA15005F0098E1819C710C21E66672 /* render.h */,
+				DD0EECA69920C5D8636F4B0C87A1D157 /* scanners.c */,
+				13E02D0A8995B817C7676C0B4EFA6896 /* scanners.h */,
+				89F611A86168A1D71BD3FA7F0621474D /* utf8.c */,
+				4856C2155C2A0B91A900FA44B48F4F7D /* utf8.h */,
+				33ECECB35F737DF5D5DF25868F07A510 /* xml.c */,
+				6BE766DBDB9ADE246DF92514DF2ADDB4 /* Support Files */,
+			);
+			path = cmark;
+			sourceTree = "<group>";
+		};
+		6BE766DBDB9ADE246DF92514DF2ADDB4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AC54A29DA862D048F732FBA1DFA654D /* cmark-iOS.modulemap */,
+				0AC90E0E35B88BBBFF4160F3DF8A030F /* cmark-iOS.xcconfig */,
+				673C1A30CE9CEE6C785F91DDF0FBECF1 /* cmark-iOS-dummy.m */,
+				ED52A094A9D77A13D3ED1EF74FAE29D0 /* cmark-iOS-prefix.pch */,
+				C2E7165741357B2E020C871F1EAA24B2 /* cmark-iOS-umbrella.h */,
+				F000504EBA14A7BB7CA741161D5EB578 /* cmark-OSX.modulemap */,
+				46666C4CC4A1E2BFC9BAB3A412FA8B1D /* cmark-OSX.xcconfig */,
+				43EC829E72C0CBE470242E735538E320 /* cmark-OSX-dummy.m */,
+				72A9857D544DAE61E5705896D5432329 /* cmark-OSX-prefix.pch */,
+				2AE2CFF1060342A77016AF22595D77BE /* cmark-OSX-umbrella.h */,
+				8CDF9506B13FEFCA5BF08A09F3CAB916 /* Info.plist */,
+				0B95C2ABB49532E1B492D72670828688 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/cmark-OSX";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3AEF7D761E8EA8419BB4A7000AB770CB /* Frameworks */,
+				67CA2C1C670AECF74A8B9AF167CB7691 /* Pods */,
+				5B002DE10CD939251D8BB9EE9A6525A9 /* Products */,
+				200DAEDCB81166AFE45624BCA41B0B3E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F5C0072B2372965A0861629CD8F08E6 /* Pods-CommonMark iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2DC883DE8F99A1710AE4F2B5DB0DE30C /* Info.plist */,
+				EB004F1D30560C8FE9C3486DA7204BAC /* Pods-CommonMark iOS.modulemap */,
+				FD40AF9FF3F6570AEB5D296B6207D27B /* Pods-CommonMark iOS-acknowledgements.markdown */,
+				B84030AF11EB93B667BE68A9E4B1B013 /* Pods-CommonMark iOS-acknowledgements.plist */,
+				2EEA8B47764241E7D1AE84AC37D7F0BD /* Pods-CommonMark iOS-dummy.m */,
+				07164092ECF6A2908608FD02AD4B38A5 /* Pods-CommonMark iOS-frameworks.sh */,
+				75ACF707DCA13110B8BEB9CC758DF8FE /* Pods-CommonMark iOS-resources.sh */,
+				5176044795C33BBF337FD2B79AFD3D73 /* Pods-CommonMark iOS-umbrella.h */,
+				31CE5BCD88C848348AD04EEF996D4172 /* Pods-CommonMark iOS.debug.xcconfig */,
+				F3D8B9DF33BDAF0CDC3B1933956201F7 /* Pods-CommonMark iOS.release.xcconfig */,
+			);
+			name = "Pods-CommonMark iOS";
+			path = "Target Support Files/Pods-CommonMark iOS";
+			sourceTree = "<group>";
+		};
+		9304B30CB87FDB77B6CEE9FB6B800855 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				DE25DD04263CA735DBC0065D686C708D /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		C21F52B0117BC9832C12DDDD9C5B3E92 /* Pods-CommonMark OSX */ = {
+			isa = PBXGroup;
+			children = (
+				24198A4CBAB56579EFF78494B5D94A02 /* Info.plist */,
+				C7025029B954465634D2CFB3AE964D4D /* Pods-CommonMark OSX.modulemap */,
+				48483B8B605D8666986444F74A36D6C4 /* Pods-CommonMark OSX-acknowledgements.markdown */,
+				8B824CDD7DC37AB77007CBB13BFF6F69 /* Pods-CommonMark OSX-acknowledgements.plist */,
+				0F569BC537CA6D3E00E98F06498CAB24 /* Pods-CommonMark OSX-dummy.m */,
+				87F90BA6CFF3FE41638CC56ABC378DCA /* Pods-CommonMark OSX-frameworks.sh */,
+				5F6E7A4E156332ADFA5C3002EFDF083C /* Pods-CommonMark OSX-resources.sh */,
+				92F969AF64F37D130AD53F6CF08755D3 /* Pods-CommonMark OSX-umbrella.h */,
+				2A9F69E334F2D38A0E64CCB34F21EAFA /* Pods-CommonMark OSX.debug.xcconfig */,
+				5871D8BE8BCCA659715DD10E71BF25D1 /* Pods-CommonMark OSX.release.xcconfig */,
+			);
+			name = "Pods-CommonMark OSX";
+			path = "Target Support Files/Pods-CommonMark OSX";
+			sourceTree = "<group>";
+		};
+		DEA55AE7EB4A1B09C009B82BA492BD02 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B0C89EDC2EC27D60F4934F3C043A7D91 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3EC6146B2B98CAB0D3F694C90A29E765 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CBEDCF73280B1FA7A794A0ACDF45EE /* buffer.h in Headers */,
+				8D58A597251039E6266CE8B4038C9A01 /* chunk.h in Headers */,
+				5C79CDEE06124FC491A994B985776A25 /* cmark-OSX-umbrella.h in Headers */,
+				3BB1A4D8156EAECB7064BBB364F8C641 /* cmark.h in Headers */,
+				A53C7CEB61C8C3EC3B40F7EF34178E62 /* cmark_ctype.h in Headers */,
+				D844D93BFB2CFD1F239C26C6A723C755 /* cmark_export.h in Headers */,
+				9230810B3698988675341261684C0F66 /* cmark_version.h in Headers */,
+				0A1F78CC02EF8AADCF95F98AC48EDD9F /* config.h in Headers */,
+				60C6B75B1494853D1C3CDA044C3E25FA /* houdini.h in Headers */,
+				291C05D0A29C53463522315F7ECC46D1 /* inlines.h in Headers */,
+				50A893DFA5A6857A489F8C0BBD0F4770 /* iterator.h in Headers */,
+				116586B5204474E47EE82FF27BAECD7D /* node.h in Headers */,
+				8C6A31563B1F2A4874CFE7703DEAFC9D /* parser.h in Headers */,
+				5FBC9E7960CF4303BA836E729CBDBFAC /* references.h in Headers */,
+				93826F5A0E34AA50BA95D4A661DD64AB /* render.h in Headers */,
+				C28EB50ED9CE0265688EE306BADF46BD /* scanners.h in Headers */,
+				46BDA27A1E6F83EE9334FDC0EC9CFE5C /* utf8.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4F4F3C152EAEBFBD790E24E723D438 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52518ED0BC5082E0B8131D7EBC0FF093 /* Pods-CommonMark iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86D461B9483DA683EE392918EA160DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27754BEE11F8C10BCA8F266964624373 /* Pods-CommonMark OSX-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD14A0F24BEDF57FCE8D74C7AFBA3378 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB04ED77D938932685512104002B4CC1 /* buffer.h in Headers */,
+				7F91CB1599D83A6D75DAE7904009BCB5 /* chunk.h in Headers */,
+				9DAA79ED7D57DA158505BF6061D87E8A /* cmark-iOS-umbrella.h in Headers */,
+				618D6EE594B877FACC1E9C86808940E9 /* cmark.h in Headers */,
+				F94F2E0D32729A56E742C60BB4F93863 /* cmark_ctype.h in Headers */,
+				B09842682F41E83772F3B419B23E1445 /* cmark_export.h in Headers */,
+				B75CF99F13D8F2236EE03483970A9A07 /* cmark_version.h in Headers */,
+				0E468A792E256E5686308F363345EDB6 /* config.h in Headers */,
+				8633CB9BD7A0D9413B95050A3CE95D69 /* houdini.h in Headers */,
+				C65B36615628CD569096FF4366BA4E8F /* inlines.h in Headers */,
+				6DD305BECAB1DD9715D70644B3C2790A /* iterator.h in Headers */,
+				36DA98195A8C44FD13C9104BFA1A43F1 /* node.h in Headers */,
+				38EADC7A8C482E738B37FA1AE2164230 /* parser.h in Headers */,
+				5B102DB97AC664895B8A6DA7EC0F6967 /* references.h in Headers */,
+				B96F4FA0EB4B7E1F3B7ABC482568FE12 /* render.h in Headers */,
+				D9991D320F6954C98FD5CC7044DF7C8F /* scanners.h in Headers */,
+				F4A7CCDB5950D61F4CD26E8B1EBA194B /* utf8.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AFAEE396F6DF8A99185FEC60F3991D4 /* cmark-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A529C9713EEAC70B89A25538FF350E47 /* Build configuration list for PBXNativeTarget "cmark-iOS" */;
+			buildPhases = (
+				808E0E6EE6A431C10ADBFCC4C0F4188A /* Sources */,
+				3BD275BD2F28E0D6E3B409649210FBE6 /* Frameworks */,
+				FD14A0F24BEDF57FCE8D74C7AFBA3378 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cmark-iOS";
+			productName = "cmark-iOS";
+			productReference = E8B207E95994870E53359893D90D130E /* cmark.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		26DB1BC1FC2C3177C998A75F5E880E1C /* Pods-CommonMark OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 198481D8FFDADA41CB2CBDB2A895F6C5 /* Build configuration list for PBXNativeTarget "Pods-CommonMark OSX" */;
+			buildPhases = (
+				55A468C311D3C395E9383E86D2047A66 /* Sources */,
+				EF6A6CA07B167B151D7A2AF0BC872D90 /* Frameworks */,
+				C86D461B9483DA683EE392918EA160DB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A2EA06629A4CEAEE33589D6501A0D30 /* PBXTargetDependency */,
+			);
+			name = "Pods-CommonMark OSX";
+			productName = "Pods-CommonMark OSX";
+			productReference = 2E47418D42D028FECAD7EE95C74647A7 /* Pods_CommonMark_OSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C31112C8BEEF55ABEFAB008CD07DBA4 /* cmark-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E51A0332488579A5EDF1A55EF5ACC786 /* Build configuration list for PBXNativeTarget "cmark-OSX" */;
+			buildPhases = (
+				CA69E6498831A4146ADBF3258AC63E4C /* Sources */,
+				9C1BB8384B4B590D65FD01022448BE1D /* Frameworks */,
+				3EC6146B2B98CAB0D3F694C90A29E765 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cmark-OSX";
+			productName = "cmark-OSX";
+			productReference = D527138357597F25BF82B3C5A165D315 /* cmark.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5D891021824CBECD47D470EBE24FE37 /* Pods-CommonMark iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A8E2AF7EFB9DD883F5636F206DD8BF /* Build configuration list for PBXNativeTarget "Pods-CommonMark iOS" */;
+			buildPhases = (
+				FB2398239A858AE9E31E19B72CB56E4F /* Sources */,
+				11AC452FF6DAD38578E0A104875BEC5E /* Frameworks */,
+				AA4F4F3C152EAEBFBD790E24E723D438 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89D3C580A8C7E53D827C575353B6A524 /* PBXTargetDependency */,
+			);
+			name = "Pods-CommonMark iOS";
+			productName = "Pods-CommonMark iOS";
+			productReference = 6F2803E05057D3A69D4D3ADEA4E45AA6 /* Pods_CommonMark_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5B002DE10CD939251D8BB9EE9A6525A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AFAEE396F6DF8A99185FEC60F3991D4 /* cmark-iOS */,
+				5C31112C8BEEF55ABEFAB008CD07DBA4 /* cmark-OSX */,
+				B5D891021824CBECD47D470EBE24FE37 /* Pods-CommonMark iOS */,
+				26DB1BC1FC2C3177C998A75F5E880E1C /* Pods-CommonMark OSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55A468C311D3C395E9383E86D2047A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBB1EC09BA1DF12940E464231172967 /* Pods-CommonMark OSX-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808E0E6EE6A431C10ADBFCC4C0F4188A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D607DF9CBDC1E71E904CE8A3EF6678A2 /* blocks.c in Sources */,
+				FFB142AA69619930274CD8F1EAF9D783 /* buffer.c in Sources */,
+				AB41CF6903A68CF0B2DFEF85A8007DE9 /* case_fold_switch.inc in Sources */,
+				061D8B4B6E00BCCA3917082CC7BBE409 /* cmark-iOS-dummy.m in Sources */,
+				1BDCD53102DCAE3B8FC568196BB3F8C1 /* cmark.c in Sources */,
+				4E469EA13D733C8BCA01DA121E48DA74 /* cmark_ctype.c in Sources */,
+				3647BFECC3ACAFF2E02F62C881BE57B6 /* commonmark.c in Sources */,
+				B9BC413E2277E4464CF1097BCD7AD030 /* entities.inc in Sources */,
+				66D138730EF76DD04C35E0CF56718BB7 /* houdini_href_e.c in Sources */,
+				013A7C39AC26FD72CBBC5316E3F7A226 /* houdini_html_e.c in Sources */,
+				1D438F31F86454DD8053D82295D47A1F /* houdini_html_u.c in Sources */,
+				06D2DE7B321D3E496511A3DDBA4932DF /* html.c in Sources */,
+				08D7BAB344AD9CC1C2A4BE725F996EC5 /* inlines.c in Sources */,
+				2F1FDA65BF031882CCE3CD9121F9A8B4 /* iterator.c in Sources */,
+				3C403E93ACEC7EEAB3B8E2491C55CC41 /* latex.c in Sources */,
+				16247A005B9B14F05B6C0509E0698914 /* main.c in Sources */,
+				88A8D47291ACE4FB90EE04D26D5936BE /* man.c in Sources */,
+				92500494694238A015091FC2D39087C9 /* node.c in Sources */,
+				DC38D9EDF456863833ECFF89127F7366 /* references.c in Sources */,
+				697DADD1C7B9E466DE1E1B2C5351A1FF /* render.c in Sources */,
+				636F229ADAE20F059AC538749F4EBB90 /* scanners.c in Sources */,
+				1435B568918F875BDE53018AC81EFB53 /* utf8.c in Sources */,
+				AFFF252F85EA9E3FAAAE827F5AF7F11E /* xml.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA69E6498831A4146ADBF3258AC63E4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF4753D7340EF3A62DB8FDF01B774C5 /* blocks.c in Sources */,
+				BB6B5263E72C8E67494BC7940BE9CDE0 /* buffer.c in Sources */,
+				F91F56013A22561F5A559B9991CAA064 /* case_fold_switch.inc in Sources */,
+				242E30E60CC5ECD10C3839320C038774 /* cmark-OSX-dummy.m in Sources */,
+				58B883D08C852E0BA86EA2EFFB796E75 /* cmark.c in Sources */,
+				4D6847E14F3384E68394DA40F0F2A24F /* cmark_ctype.c in Sources */,
+				81977E3AD744DF3EDE7463BCB705005E /* commonmark.c in Sources */,
+				138914D636AF698AE03CB4DBB879EFA3 /* entities.inc in Sources */,
+				9E22E97FA129C85935172A891DC015B5 /* houdini_href_e.c in Sources */,
+				CB4499057BAF536AA14B6926BBBEFFE6 /* houdini_html_e.c in Sources */,
+				0CCE6417D1BA4A7665322E82990630D2 /* houdini_html_u.c in Sources */,
+				1ACAE5164487E5DE738B05CCD7AF71A8 /* html.c in Sources */,
+				9EC182F77A66C8C6F8FCFC9C408A09CC /* inlines.c in Sources */,
+				EE11E6E5CB52249AFE996AC42672DF4C /* iterator.c in Sources */,
+				93B8603AEFE8FAD02BD78389AB2BA746 /* latex.c in Sources */,
+				74B16AB443EBFB9CD2E5B9EF22774CAD /* main.c in Sources */,
+				2F08BB67FD49FF9D19812A47031D7844 /* man.c in Sources */,
+				33D92A1198B283DC66B49EE0163730FF /* node.c in Sources */,
+				44837891AFD2DF8D3555A3AA1E4C760A /* references.c in Sources */,
+				2E161559461A75757EBCD14C5D691FF9 /* render.c in Sources */,
+				0901101B9DB5FEA8AB1C9B510582588D /* scanners.c in Sources */,
+				CA1ADC990F5863452D3222E588756372 /* utf8.c in Sources */,
+				162B9F9FB410E4C6A16BE03E2BC9090C /* xml.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2398239A858AE9E31E19B72CB56E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B790BAC1F7B91F4AFEADFD6847082EA8 /* Pods-CommonMark iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A2EA06629A4CEAEE33589D6501A0D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "cmark-OSX";
+			target = 5C31112C8BEEF55ABEFAB008CD07DBA4 /* cmark-OSX */;
+			targetProxy = 9EA039B2A6DB79EE4873616355C08097 /* PBXContainerItemProxy */;
+		};
+		89D3C580A8C7E53D827C575353B6A524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "cmark-iOS";
+			target = 0AFAEE396F6DF8A99185FEC60F3991D4 /* cmark-iOS */;
+			targetProxy = 23F8430EE35A7B3779EA9BCC8648CBF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E321304A65AAF2CF07F7B7C57213EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4F205E074D8A2B0E8DAC8F9AE1A3E33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3D8B9DF33BDAF0CDC3B1933956201F7 /* Pods-CommonMark iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CommonMark iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CommonMark iOS/Pods-CommonMark iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CommonMark_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68ACEFC8D28D43E75B21538AF6308B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46666C4CC4A1E2BFC9BAB3A412FA8B1D /* cmark-OSX.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/cmark-OSX/cmark-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/cmark-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULEMAP_FILE = "Target Support Files/cmark-OSX/cmark-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = cmark;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		83833F03392FB0C5C1E35E07AA34DA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AC90E0E35B88BBBFF4160F3DF8A030F /* cmark-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/cmark-iOS/cmark-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/cmark-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/cmark-iOS/cmark-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = cmark;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD032F9D922785FF2B096546708B8744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AC90E0E35B88BBBFF4160F3DF8A030F /* cmark-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/cmark-iOS/cmark-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/cmark-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/cmark-iOS/cmark-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = cmark;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD893F393FBAC09E67F26C4A43CCF903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31CE5BCD88C848348AD04EEF996D4172 /* Pods-CommonMark iOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CommonMark iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CommonMark iOS/Pods-CommonMark iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CommonMark_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE71138576A5BD442F742F7387E89D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A9F69E334F2D38A0E64CCB34F21EAFA /* Pods-CommonMark OSX.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CommonMark OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods-CommonMark OSX/Pods-CommonMark OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CommonMark_OSX;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3C5F578EA419663F3C3CC23A9915D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5871D8BE8BCCA659715DD10E71BF25D1 /* Pods-CommonMark OSX.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CommonMark OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods-CommonMark OSX/Pods-CommonMark OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CommonMark_OSX;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3BE5286B6C523C95064094D40287483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46666C4CC4A1E2BFC9BAB3A412FA8B1D /* cmark-OSX.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/cmark-OSX/cmark-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/cmark-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULEMAP_FILE = "Target Support Files/cmark-OSX/cmark-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = cmark;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F90863A04FA7C699D5F8F29BFC678FBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		198481D8FFDADA41CB2CBDB2A895F6C5 /* Build configuration list for PBXNativeTarget "Pods-CommonMark OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE71138576A5BD442F742F7387E89D27 /* Debug */,
+				E3C5F578EA419663F3C3CC23A9915D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E321304A65AAF2CF07F7B7C57213EE9 /* Debug */,
+				F90863A04FA7C699D5F8F29BFC678FBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A529C9713EEAC70B89A25538FF350E47 /* Build configuration list for PBXNativeTarget "cmark-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD032F9D922785FF2B096546708B8744 /* Debug */,
+				83833F03392FB0C5C1E35E07AA34DA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A8E2AF7EFB9DD883F5636F206DD8BF /* Build configuration list for PBXNativeTarget "Pods-CommonMark iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD893F393FBAC09E67F26C4A43CCF903 /* Debug */,
+				4F205E074D8A2B0E8DAC8F9AE1A3E33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E51A0332488579A5EDF1A55EF5ACC786 /* Build configuration list for PBXNativeTarget "cmark-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BE5286B6C523C95064094D40287483 /* Debug */,
+				68ACEFC8D28D43E75B21538AF6308B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

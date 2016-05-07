@@ -1,0 +1,6 @@
+framework module Pods_CommonMark_OSX {
+  umbrella header "Pods-CommonMark OSX-umbrella.h"
+
+  export *
+  module * { export * }
+}
