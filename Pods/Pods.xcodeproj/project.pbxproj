@@ -660,6 +660,36 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		070DAF0BADAFF8E47AB77A3416AD12A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46666C4CC4A1E2BFC9BAB3A412FA8B1D /* cmark-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/cmark-OSX/cmark-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/cmark-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULEMAP_FILE = "Target Support Files/cmark-OSX/cmark-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = cmark;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		1E321304A65AAF2CF07F7B7C57213EE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -703,6 +733,36 @@
 			};
 			name = Debug;
 		};
+		4CD52E3E0C6C6BD4662F1B12B88D61EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46666C4CC4A1E2BFC9BAB3A412FA8B1D /* cmark-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/cmark-OSX/cmark-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/cmark-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULEMAP_FILE = "Target Support Files/cmark-OSX/cmark-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = cmark;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		4F205E074D8A2B0E8DAC8F9AE1A3E33E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F3D8B9DF33BDAF0CDC3B1933956201F7 /* Pods-CommonMark iOS.release.xcconfig */;
@@ -736,15 +796,14 @@
 			};
 			name = Release;
 		};
-		68ACEFC8D28D43E75B21538AF6308B06 /* Release */ = {
+		79EF466F4B5ADF823F53BEC5FA7CBDEA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46666C4CC4A1E2BFC9BAB3A412FA8B1D /* cmark-OSX.xcconfig */;
+			baseConfigurationReference = 2A9F69E334F2D38A0E64CCB34F21EAFA /* Pods-CommonMark OSX.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -752,20 +811,24 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_VERSION = A;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/cmark-OSX/cmark-OSX-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/cmark-OSX/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CommonMark OSX/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				MODULEMAP_FILE = "Target Support Files/cmark-OSX/cmark-OSX.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = cmark;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods-CommonMark OSX/Pods-CommonMark OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CommonMark_OSX;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		83833F03392FB0C5C1E35E07AA34DA1B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -858,46 +921,10 @@
 			};
 			name = Debug;
 		};
-		CE71138576A5BD442F742F7387E89D27 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A9F69E334F2D38A0E64CCB34F21EAFA /* Pods-CommonMark OSX.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CommonMark OSX/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/Pods-CommonMark OSX/Pods-CommonMark OSX.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CommonMark_OSX;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E3C5F578EA419663F3C3CC23A9915D7B /* Release */ = {
+		F83D8CCC4F717D9D22E1B48290A3555F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5871D8BE8BCCA659715DD10E71BF25D1 /* Pods-CommonMark OSX.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -927,37 +954,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		F3BE5286B6C523C95064094D40287483 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46666C4CC4A1E2BFC9BAB3A412FA8B1D /* cmark-OSX.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/cmark-OSX/cmark-OSX-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/cmark-OSX/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				MODULEMAP_FILE = "Target Support Files/cmark-OSX/cmark-OSX.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = cmark;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		F90863A04FA7C699D5F8F29BFC678FBD /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1004,8 +1000,8 @@
 		198481D8FFDADA41CB2CBDB2A895F6C5 /* Build configuration list for PBXNativeTarget "Pods-CommonMark OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE71138576A5BD442F742F7387E89D27 /* Debug */,
-				E3C5F578EA419663F3C3CC23A9915D7B /* Release */,
+				79EF466F4B5ADF823F53BEC5FA7CBDEA /* Debug */,
+				F83D8CCC4F717D9D22E1B48290A3555F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1040,8 +1036,8 @@
 		E51A0332488579A5EDF1A55EF5ACC786 /* Build configuration list for PBXNativeTarget "cmark-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3BE5286B6C523C95064094D40287483 /* Debug */,
-				68ACEFC8D28D43E75B21538AF6308B06 /* Release */,
+				4CD52E3E0C6C6BD4662F1B12B88D61EF /* Debug */,
+				070DAF0BADAFF8E47AB77A3416AD12A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
