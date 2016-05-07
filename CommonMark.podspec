@@ -38,5 +38,5 @@ Pod::Spec.new do |s|
 
   s.source_files  = "CommonMark/*.swift", "CommonMark/CommonMark.h"
 
-  s.dependency "cmark", '0.24.0'
+  s.dependency "cmark", '~>0.24.0'
 end

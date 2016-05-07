@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		225BFE62774C442C9D71D003 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E753959295AD312B1EC9AA5 /* Pods.framework */; };
+		262BB1C41CDD785400740EF6 /* CommonMark iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 262BB1C31CDD785400740EF6 /* CommonMark iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		262BB1C91CDD786000740EF6 /* ASTOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837EF5571B58EDBE000F5E7F /* ASTOperations.swift */; };
+		262BB1CA1CDD786700740EF6 /* SwiftAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837EF5561B58EDBE000F5E7F /* SwiftAST.swift */; };
+		262BB1CB1CDD786A00740EF6 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837EF5551B58EDBE000F5E7F /* Node.swift */; };
 		5D79B3171B8132E600001D7D /* ASTOperationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D79B3161B8132E600001D7D /* ASTOperationsTests.swift */; };
 		5D79B3191B8138C700001D7D /* cats.md in Resources */ = {isa = PBXBuildFile; fileRef = 5D79B3181B8138C700001D7D /* cats.md */; };
 		837EF53F1B58EDB0000F5E7F /* CommonMark.h in Headers */ = {isa = PBXBuildFile; fileRef = 837EF53E1B58EDB0000F5E7F /* CommonMark.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		837EF5461B58EDB0000F5E7F /* CommonMark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837EF53B1B58EDB0000F5E7F /* CommonMark.framework */; };
+		837EF5461B58EDB0000F5E7F /* CommonMark OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837EF53B1B58EDB0000F5E7F /* CommonMark OSX.framework */; };
 		837EF5581B58EDBE000F5E7F /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837EF5551B58EDBE000F5E7F /* Node.swift */; };
 		837EF5591B58EDBE000F5E7F /* SwiftAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837EF5561B58EDBE000F5E7F /* SwiftAST.swift */; };
 		837EF55A1B58EDBE000F5E7F /* ASTOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837EF5571B58EDBE000F5E7F /* ASTOperations.swift */; };
+		8C5B53E3248CCF49AA41CEB0 /* Pods_CommonMark_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A93EFC0F9CF881A3D6A587 /* Pods_CommonMark_iOS.framework */; };
+		EA34ABC1671425463A31003A /* Pods_CommonMark_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A88B48972EC33E018FBFAB /* Pods_CommonMark_OSX.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +33,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05A93EFC0F9CF881A3D6A587 /* Pods_CommonMark_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonMark_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		262BB1C11CDD785400740EF6 /* CommonMark iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "CommonMark iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		262BB1C31CDD785400740EF6 /* CommonMark iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommonMark iOS.h"; sourceTree = "<group>"; };
+		262BB1C51CDD785400740EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28CF36D362D7B2329CAF379F /* Pods-CommonMark iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonMark iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CommonMark iOS/Pods-CommonMark iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		38E2589410B181D389E9B8FB /* Pods-CommonMark OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonMark OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CommonMark OSX/Pods-CommonMark OSX.debug.xcconfig"; sourceTree = "<group>"; };
 		5D79B3161B8132E600001D7D /* ASTOperationsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASTOperationsTests.swift; sourceTree = "<group>"; };
 		5D79B3181B8138C700001D7D /* cats.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = cats.md; sourceTree = "<group>"; };
-		837EF53B1B58EDB0000F5E7F /* CommonMark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonMark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7036E599534CD249417FD926 /* Pods-CommonMark OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonMark OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonMark OSX/Pods-CommonMark OSX.release.xcconfig"; sourceTree = "<group>"; };
+		77E93149E8E4493AB6DF2CFE /* Pods_CommonMark_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonMark_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		837EF53B1B58EDB0000F5E7F /* CommonMark OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "CommonMark OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		837EF53E1B58EDB0000F5E7F /* CommonMark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMark.h; sourceTree = "<group>"; };
 		837EF5401B58EDB0000F5E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		837EF5451B58EDB0000F5E7F /* CommonMarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonMarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,16 +52,28 @@
 		837EF5561B58EDBE000F5E7F /* SwiftAST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAST.swift; sourceTree = "<group>"; };
 		837EF5571B58EDBE000F5E7F /* ASTOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASTOperations.swift; sourceTree = "<group>"; };
 		8E753959295AD312B1EC9AA5 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E7949D04BD3418EDCF7283F /* Pods-CommonMark Mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonMark Mac.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonMark Mac/Pods-CommonMark Mac.release.xcconfig"; sourceTree = "<group>"; };
+		A6A88B48972EC33E018FBFAB /* Pods_CommonMark_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonMark_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBDCFF288F65A1D42F5D1AE8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CCCE6C334963E1D956049C1E /* Pods-CommonMark Mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonMark Mac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CommonMark Mac/Pods-CommonMark Mac.debug.xcconfig"; sourceTree = "<group>"; };
+		EAE6781E1F54F64C93C39F2A /* Pods-CommonMark iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonMark iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonMark iOS/Pods-CommonMark iOS.release.xcconfig"; sourceTree = "<group>"; };
 		F4920A6E7B62D7FD2C0C0A41 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		262BB1BD1CDD785400740EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5B53E3248CCF49AA41CEB0 /* Pods_CommonMark_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		837EF5371B58EDB0000F5E7F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				225BFE62774C442C9D71D003 /* Pods.framework in Frameworks */,
+				EA34ABC1671425463A31003A /* Pods_CommonMark_OSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,18 +81,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				837EF5461B58EDB0000F5E7F /* CommonMark.framework in Frameworks */,
+				837EF5461B58EDB0000F5E7F /* CommonMark OSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		262BB1C21CDD785400740EF6 /* CommonMark iOS */ = {
+			isa = PBXGroup;
+			children = (
+				262BB1C31CDD785400740EF6 /* CommonMark iOS.h */,
+				262BB1C51CDD785400740EF6 /* Info.plist */,
+			);
+			path = "CommonMark iOS";
+			sourceTree = "<group>";
+		};
 		7F7F7A5290E9A22A50CC8ADF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				CBDCFF288F65A1D42F5D1AE8 /* Pods.debug.xcconfig */,
 				F4920A6E7B62D7FD2C0C0A41 /* Pods.release.xcconfig */,
+				CCCE6C334963E1D956049C1E /* Pods-CommonMark Mac.debug.xcconfig */,
+				9E7949D04BD3418EDCF7283F /* Pods-CommonMark Mac.release.xcconfig */,
+				28CF36D362D7B2329CAF379F /* Pods-CommonMark iOS.debug.xcconfig */,
+				EAE6781E1F54F64C93C39F2A /* Pods-CommonMark iOS.release.xcconfig */,
+				38E2589410B181D389E9B8FB /* Pods-CommonMark OSX.debug.xcconfig */,
+				7036E599534CD249417FD926 /* Pods-CommonMark OSX.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -75,8 +115,9 @@
 		837EF5311B58EDB0000F5E7F = {
 			isa = PBXGroup;
 			children = (
-				837EF53D1B58EDB0000F5E7F /* CommonMark */,
+				837EF53D1B58EDB0000F5E7F /* CommonMark OSX */,
 				837EF5491B58EDB0000F5E7F /* CommonMarkTests */,
+				262BB1C21CDD785400740EF6 /* CommonMark iOS */,
 				837EF53C1B58EDB0000F5E7F /* Products */,
 				7F7F7A5290E9A22A50CC8ADF /* Pods */,
 				C6E1D498A72E7857EC9025C4 /* Frameworks */,
@@ -86,13 +127,14 @@
 		837EF53C1B58EDB0000F5E7F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				837EF53B1B58EDB0000F5E7F /* CommonMark.framework */,
+				837EF53B1B58EDB0000F5E7F /* CommonMark OSX.framework */,
 				837EF5451B58EDB0000F5E7F /* CommonMarkTests.xctest */,
+				262BB1C11CDD785400740EF6 /* CommonMark iOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		837EF53D1B58EDB0000F5E7F /* CommonMark */ = {
+		837EF53D1B58EDB0000F5E7F /* CommonMark OSX */ = {
 			isa = PBXGroup;
 			children = (
 				837EF5551B58EDBE000F5E7F /* Node.swift */,
@@ -101,6 +143,7 @@
 				837EF53E1B58EDB0000F5E7F /* CommonMark.h */,
 				837EF5401B58EDB0000F5E7F /* Info.plist */,
 			);
+			name = "CommonMark OSX";
 			path = CommonMark;
 			sourceTree = "<group>";
 		};
@@ -118,6 +161,9 @@
 			isa = PBXGroup;
 			children = (
 				8E753959295AD312B1EC9AA5 /* Pods.framework */,
+				77E93149E8E4493AB6DF2CFE /* Pods_CommonMark_Mac.framework */,
+				05A93EFC0F9CF881A3D6A587 /* Pods_CommonMark_iOS.framework */,
+				A6A88B48972EC33E018FBFAB /* Pods_CommonMark_OSX.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -125,6 +171,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		262BB1BE1CDD785400740EF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262BB1C41CDD785400740EF6 /* CommonMark iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		837EF5381B58EDB0000F5E7F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -136,24 +190,44 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		837EF53A1B58EDB0000F5E7F /* CommonMark */ = {
+		262BB1C01CDD785400740EF6 /* CommonMark iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 837EF54F1B58EDB0000F5E7F /* Build configuration list for PBXNativeTarget "CommonMark" */;
+			buildConfigurationList = 262BB1C81CDD785400740EF6 /* Build configuration list for PBXNativeTarget "CommonMark iOS" */;
 			buildPhases = (
-				D413A3C06E24F79476E0565B /* Check Pods Manifest.lock */,
-				837EF5361B58EDB0000F5E7F /* Sources */,
-				837EF5371B58EDB0000F5E7F /* Frameworks */,
-				837EF5381B58EDB0000F5E7F /* Headers */,
-				837EF5391B58EDB0000F5E7F /* Resources */,
-				E46C000AB275932A0640907A /* Copy Pods Resources */,
+				DEFB963DAEA51A8BA8EDE600 /* 📦 Check Pods Manifest.lock */,
+				262BB1BC1CDD785400740EF6 /* Sources */,
+				262BB1BD1CDD785400740EF6 /* Frameworks */,
+				262BB1BE1CDD785400740EF6 /* Headers */,
+				262BB1BF1CDD785400740EF6 /* Resources */,
+				269DECA10B50E35F7562399D /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CommonMark;
+			name = "CommonMark iOS";
+			productName = "CommonMark iOS";
+			productReference = 262BB1C11CDD785400740EF6 /* CommonMark iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		837EF53A1B58EDB0000F5E7F /* CommonMark OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837EF54F1B58EDB0000F5E7F /* Build configuration list for PBXNativeTarget "CommonMark OSX" */;
+			buildPhases = (
+				D413A3C06E24F79476E0565B /* 📦 Check Pods Manifest.lock */,
+				837EF5361B58EDB0000F5E7F /* Sources */,
+				837EF5371B58EDB0000F5E7F /* Frameworks */,
+				837EF5381B58EDB0000F5E7F /* Headers */,
+				837EF5391B58EDB0000F5E7F /* Resources */,
+				E46C000AB275932A0640907A /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CommonMark OSX";
 			productName = CommonMark;
-			productReference = 837EF53B1B58EDB0000F5E7F /* CommonMark.framework */;
+			productReference = 837EF53B1B58EDB0000F5E7F /* CommonMark OSX.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		837EF5441B58EDB0000F5E7F /* CommonMarkTests */ = {
@@ -181,9 +255,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Chris Eidhof";
 				TargetAttributes = {
+					262BB1C01CDD785400740EF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					837EF53A1B58EDB0000F5E7F = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -204,13 +281,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				837EF53A1B58EDB0000F5E7F /* CommonMark */,
+				837EF53A1B58EDB0000F5E7F /* CommonMark OSX */,
+				262BB1C01CDD785400740EF6 /* CommonMark iOS */,
 				837EF5441B58EDB0000F5E7F /* CommonMarkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		262BB1BF1CDD785400740EF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		837EF5391B58EDB0000F5E7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -229,14 +314,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		D413A3C06E24F79476E0565B /* Check Pods Manifest.lock */ = {
+		269DECA10B50E35F7562399D /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CommonMark iOS/Pods-CommonMark iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D413A3C06E24F79476E0565B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,24 +344,49 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		E46C000AB275932A0640907A /* Copy Pods Resources */ = {
+		DEFB963DAEA51A8BA8EDE600 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E46C000AB275932A0640907A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CommonMark OSX/Pods-CommonMark OSX-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		262BB1BC1CDD785400740EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262BB1CB1CDD786A00740EF6 /* Node.swift in Sources */,
+				262BB1CA1CDD786700740EF6 /* SwiftAST.swift in Sources */,
+				262BB1C91CDD786000740EF6 /* ASTOperations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		837EF5361B58EDB0000F5E7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -285,12 +410,58 @@
 /* Begin PBXTargetDependency section */
 		837EF5481B58EDB0000F5E7F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 837EF53A1B58EDB0000F5E7F /* CommonMark */;
+			target = 837EF53A1B58EDB0000F5E7F /* CommonMark OSX */;
 			targetProxy = 837EF5471B58EDB0000F5E7F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		262BB1C61CDD785400740EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28CF36D362D7B2329CAF379F /* Pods-CommonMark iOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "CommonMark iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.dianqk.CommonMark-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		262BB1C71CDD785400740EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE6781E1F54F64C93C39F2A /* Pods-CommonMark iOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "CommonMark iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.dianqk.CommonMark-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		837EF54D1B58EDB0000F5E7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -327,7 +498,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -366,7 +538,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -376,12 +549,11 @@
 		};
 		837EF5501B58EDB0000F5E7F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBDCFF288F65A1D42F5D1AE8 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 38E2589410B181D389E9B8FB /* Pods-CommonMark OSX.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -398,12 +570,11 @@
 		};
 		837EF5511B58EDB0000F5E7F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4920A6E7B62D7FD2C0C0A41 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 7036E599534CD249417FD926 /* Pods-CommonMark OSX.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -445,6 +616,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		262BB1C81CDD785400740EF6 /* Build configuration list for PBXNativeTarget "CommonMark iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262BB1C61CDD785400740EF6 /* Debug */,
+				262BB1C71CDD785400740EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		837EF5351B58EDB0000F5E7F /* Build configuration list for PBXProject "CommonMark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -454,7 +634,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		837EF54F1B58EDB0000F5E7F /* Build configuration list for PBXNativeTarget "CommonMark" */ = {
+		837EF54F1B58EDB0000F5E7F /* Build configuration list for PBXNativeTarget "CommonMark OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				837EF5501B58EDB0000F5E7F /* Debug */,

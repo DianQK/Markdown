@@ -1,10 +1,12 @@
 PODS:
-  - cmark (0.24.0)
+  - cmark (0.24.1)
 
 DEPENDENCIES:
-  - cmark (= 0.24.0)
+  - cmark (~> 0.24.0)
 
 SPEC CHECKSUMS:
-  cmark: 208492309477fb38ae4fecbe23f966a65b9e4650
+  cmark: ec0275215b504780287b6fca360224e384368af8
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: e129d6c5de4d6eece8b2c3ef0c7c8e6a67e0f858
+
+COCOAPODS: 1.0.0.rc.2
