@@ -1,6 +1,0 @@
-framework module Pods_CommonMark_iOS {
-  umbrella header "Pods-CommonMark iOS-umbrella.h"
-
-  export *
-  module * { export * }
-}
