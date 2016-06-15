@@ -125,7 +125,7 @@
 		26E6BA931CDDA49C00B3BA20 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = DianQK;
 				TargetAttributes = {
 					26E6BA9B1CDDA49C00B3BA20 = {
@@ -332,6 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.dianqk.CommonMark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};

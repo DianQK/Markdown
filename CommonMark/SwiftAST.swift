@@ -59,12 +59,12 @@ public enum Block {
 func parseInlineElement(node: Node) -> InlineElement {
     let parseChildren = { node.children.map(parseInlineElement) }
     switch node.type {
-    case CMARK_NODE_TEXT: return .Text(text: node.literal!)
+    case CMARK_NODE_TEXT: return .Text(text: node.literal)
     case CMARK_NODE_SOFTBREAK: return .SoftBreak
     case CMARK_NODE_LINEBREAK: return .LineBreak
-    case CMARK_NODE_CODE: return .Code(text: node.literal!)
-    case CMARK_NODE_HTML_INLINE: return .Html(text: node.literal!)
-    case CMARK_NODE_CUSTOM_INLINE: return .Custom(literal: node.literal!)
+    case CMARK_NODE_CODE: return .Code(text: node.literal)
+    case CMARK_NODE_HTML_INLINE: return .Html(text: node.literal)
+    case CMARK_NODE_CUSTOM_INLINE: return .Custom(literal: node.literal)
     case CMARK_NODE_EMPH: return .Emphasis(children: parseChildren())
     case CMARK_NODE_STRONG: return .Strong(children: parseChildren())
     case CMARK_NODE_LINK: return .Link(children: parseChildren(), title: node.title, url: node.urlString)
@@ -95,11 +95,11 @@ public func parseBlock(node: Node) -> Block {
         let type = node.listType == CMARK_BULLET_LIST ? ListType.Unordered : ListType.Ordered
         return .List(items: node.children.map(parseListItem), type: type)
     case CMARK_NODE_CODE_BLOCK:
-        return .CodeBlock(text: node.literal!, language: node.fenceInfo)
+        return .CodeBlock(text: node.literal, language: node.fenceInfo)
     case CMARK_NODE_HTML_BLOCK:
-        return .Html(text: node.literal!)
+        return .Html(text: node.literal)
     case CMARK_NODE_CUSTOM_BLOCK:
-        return .Custom(literal: node.literal!)
+        return .Custom(literal: node.literal)
     case CMARK_NODE_HEADING:
         return .Heading(text: parseInlineChildren(), level: node.headerLevel)
     case CMARK_NODE_THEMATIC_BREAK:
