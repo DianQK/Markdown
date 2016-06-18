@@ -18,7 +18,6 @@
 		289382417B673AB8A5A3E6429AE56373 /* scanners.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C5A9636103754958C3C9F6B7B5C94BB /* scanners.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2D9245D8353C87EAEA804E70D382DD35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		2FE4EA6D1469666F56E906142AB143EE /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 75D0B568936E1A36C8AD4CA61E9DF588 /* utf8.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3C06119EFF2D42B3049C1D671FD28CEB /* case_fold_switch.inc in Sources */ = {isa = PBXBuildFile; fileRef = C9E859E18D89190DC6CF65F561A7D77D /* case_fold_switch.inc */; };
 		4160C38DD823440D9746870931F4881A /* cmark.h in Headers */ = {isa = PBXBuildFile; fileRef = BCD3BF979218FBF7628A5E48B8388346 /* cmark.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41CD42DB27C5314E528644760891A2F4 /* latex.c in Sources */ = {isa = PBXBuildFile; fileRef = 156BCA7ECB57233C9C1BF3EA04EE0A5A /* latex.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		4394E4B441D7B90624CD08F422AA5231 /* cmark_version.h in Headers */ = {isa = PBXBuildFile; fileRef = E170FC9DC9E7F1581C6E8957470521AB /* cmark_version.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,7 +36,6 @@
 		92C8247D5116689A5F770848E026F4BC /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = 99684E11232AF2ECB1EF324FF0B49194 /* utf8.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		95DB1F5EA5EDE853173E18503A9165CA /* cmark-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A0328109459CE8D6D8733DAB72B4A4 /* cmark-dummy.m */; };
 		987776A0E592509A0127F4952846CADC /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = CD5360BA5362C6D70A7385BE1746CA78 /* html.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		99BDFAEE954B0245C3A2836ED58E27E3 /* entities.inc in Sources */ = {isa = PBXBuildFile; fileRef = 739813FC1E9593D72213F658DBCE247A /* entities.inc */; };
 		A0B66CDF44533B622CFC842AC1D57183 /* chunk.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC1DC81AA053A77DDE33726A9686674 /* chunk.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A7876325B8335D6D0F5966713EE4BAFF /* cmark-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E343CD4BEB129E3E6ABBFB3580085115 /* cmark-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACBEC52C42AF70C6C2CDC0F0B266557C /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5CE68A7AB223139C68F706228BA320 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -389,12 +387,10 @@
 			files = (
 				B95D22549AF16167622E6ABD2202AB21 /* blocks.c in Sources */,
 				FC7DC4589DE4EFEE4E112DE542FD2175 /* buffer.c in Sources */,
-				3C06119EFF2D42B3049C1D671FD28CEB /* case_fold_switch.inc in Sources */,
 				95DB1F5EA5EDE853173E18503A9165CA /* cmark-dummy.m in Sources */,
 				B1BBF21398B19A2685D50A98089FC480 /* cmark.c in Sources */,
 				6D637425A51A0D41950553F76A372DFA /* cmark_ctype.c in Sources */,
 				056B6DCC82E03D96C2E94CABFEA87B0E /* commonmark.c in Sources */,
-				99BDFAEE954B0245C3A2836ED58E27E3 /* entities.inc in Sources */,
 				7A293F70AE6226ED6F365FDFB1A3BCD0 /* houdini_href_e.c in Sources */,
 				64F4F2EF8960745B4EE6BF6B8F0B56A4 /* houdini_html_e.c in Sources */,
 				CF6A0144451325BDD58C2A3B218DB3E3 /* houdini_html_u.c in Sources */,
