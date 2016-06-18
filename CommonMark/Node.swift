@@ -12,16 +12,9 @@ import cmark
 extension String {
     /// Converts Markdown text to HTML.
     /// - returns: The HTML representation of `markdown`, or `nil` if the conversion fails.
-    public func markdownToHTML() -> String {
-        let outString = cmark_markdown_to_html(self, self.utf8.count, 0)
-        return String(outString)
-    }
-}
-
-
-extension OpaquePointer {
-    func mapIfNonNil<U>(transform: (OpaquePointer)->U) -> U {
-        return transform(self)
+    public func markdownToHTML() -> String? {
+        let outString = cmark_markdown_to_html(self, self.utf8.count, 0)!
+        return String(utf8String: outString)
     }
 }
 
@@ -71,13 +64,17 @@ public class Node: CustomStringConvertible {
     }
     
     var typeString: String {
-        return String(cmark_node_get_type_string(node))
+        return String(utf8String: cmark_node_get_type_string(node))!
     }
     
-    var literal: String {
-        get { return String(cmark_node_get_literal(node)) }
+    var literal: String? {
+        get { return String(utf8String: cmark_node_get_literal(node)) }
         set {
-            cmark_node_set_literal(node, newValue)
+            if let value = newValue {
+                cmark_node_set_literal(node, value)
+            } else {
+                cmark_node_set_literal(node, nil)
+            }
         }
     }
     
@@ -87,7 +84,7 @@ public class Node: CustomStringConvertible {
     }
     
     var fenceInfo: String? {
-        get { return String(cmark_node_get_fence_info(node)) }
+        get { return String(utf8String: cmark_node_get_fence_info(node)) }
         set {
           if let value = newValue {
               cmark_node_set_fence_info(node, value)
@@ -98,7 +95,7 @@ public class Node: CustomStringConvertible {
     }
     
     var urlString: String? {
-        get { return String(cmark_node_get_url(node)) }
+        get { return String(utf8String: cmark_node_get_url(node)) }
         set {
           if let value = newValue {
               cmark_node_set_url(node, value)
@@ -109,7 +106,7 @@ public class Node: CustomStringConvertible {
     }
     
     var title: String? {
-        get { return String(cmark_node_get_title(node)) }
+        get { return String(utf8String: cmark_node_get_title(node)) }
         set {
           if let value = newValue {
               cmark_node_set_title(node, value)
@@ -131,22 +128,22 @@ public class Node: CustomStringConvertible {
 
     /// Renders the HTML representation
     public var html: String {
-        return String(cmark_render_html(node, 0))
+        return String(utf8String: cmark_render_html(node, 0))!
     }
     
     /// Renders the XML representation
     public var xml: String {
-        return String(cmark_render_xml(node, 0))
+        return String(utf8String: cmark_render_xml(node, 0))!
     }
     
     /// Renders the CommonMark representation
     public var commonMark: String {
-        return String(cmark_render_commonmark(node, CMARK_OPT_DEFAULT, 80))
+        return String(utf8String: cmark_render_commonmark(node, CMARK_OPT_DEFAULT, 80))!
     }
     
     /// Renders the LaTeX representation
     public var latex: String {
-        return String(cmark_render_latex(node, CMARK_OPT_DEFAULT, 80))
+        return String(utf8String: cmark_render_latex(node, CMARK_OPT_DEFAULT, 80))!
     }
 
     public var description: String {
