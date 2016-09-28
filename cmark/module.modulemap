@@ -1,0 +1,5 @@
+module cmark [system] {
+    header "node.h"
+    header "cmark.h"
+    export *
+}
