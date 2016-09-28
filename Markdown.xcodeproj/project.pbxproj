@@ -22,7 +22,6 @@
 		269501AA1D9C18A80015B235 /* cmark_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 269501831D9C18A80015B235 /* cmark_version.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		269501AB1D9C18A80015B235 /* commonmark.c in Sources */ = {isa = PBXBuildFile; fileRef = 269501841D9C18A80015B235 /* commonmark.c */; };
 		269501AC1D9C18A80015B235 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 269501851D9C18A80015B235 /* config.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		269501AD1D9C18A80015B235 /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = 269501861D9C18A80015B235 /* COPYING */; };
 		269501AF1D9C18A80015B235 /* houdini.h in Headers */ = {isa = PBXBuildFile; fileRef = 269501881D9C18A80015B235 /* houdini.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		269501B01D9C18A80015B235 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 269501891D9C18A80015B235 /* houdini_href_e.c */; };
 		269501B11D9C18A80015B235 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 2695018A1D9C18A80015B235 /* houdini_html_e.c */; };
@@ -357,7 +356,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				269501AD1D9C18A80015B235 /* COPYING in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,6 +642,7 @@
 				269501EA1D9C1A7D0015B235 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
